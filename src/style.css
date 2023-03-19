@@ -1,0 +1,142 @@
+/* ===================     css reset (start)    ========================== */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ===================     css reset (end)   ========================== */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  background: #f55a5a;
+  color: #ffffff;
+}
+
+.nav--title {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.nav--logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.card {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.card--image {
+  width: 175px;
+  height: 188px;
+  border-radius: 5px;
+}
+.card--stats {
+  margin-top: 1rem;
+  width: 28.125rem;
+}
+.card--logo {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 17px;
+  height: 17px;
+  color: #f55a5a;
+  margin-right: 0.25rem;
+}
+
+.card--location {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  margin-bottom: 0.7rem;
+}
+
+a {
+  margin-left: 1.5rem;
+  font-weight: 400;
+  font-size: 12.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+  cursor: pointer;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-bottom: 2rem;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 13.24px;
+  line-height: 12px;
+  color: #2b283a;
+  margin-bottom: 0.7rem;
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 13.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
